@@ -1,0 +1,12 @@
+
+func foo(int: x) {
+  ret int: ? (x, 10, >), (x - 10), (x + 1);
+}
+
+int: y = 15;
+
+bool: b = ? (foo(y), 5, =), true, false;
+
+str: res = ? b, "TRUE", "FALSE";
+
+print(str);

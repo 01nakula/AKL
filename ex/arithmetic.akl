@@ -1,0 +1,15 @@
+func add(a, b) {
+  ret int: a + b;
+}
+
+func sub(int: a, int: b) {
+  ret int: a - b;
+}
+
+func mult(int: a, int: b) {
+  ret int: a * b;
+}
+
+func div(int: a, int: b) {
+  ret int: a / b;
+}
