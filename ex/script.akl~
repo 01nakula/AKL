@@ -1,6 +1,0 @@
-let x = 15;
-
-print(x);
-
-if (x, 10, >) {print("X greater than 10!\n");}
-else {print("X less than 10!");}
