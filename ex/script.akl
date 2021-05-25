@@ -1,6 +1,6 @@
 
-func foo(int: x) {
-  ret int: ? (x, 10, >), (x - 10), (x + 1);
+int: func foo(int: x) {
+  ret ? (x, 10, >), (x - 10), (x + 1);
 }
 
 int: y = 15;
